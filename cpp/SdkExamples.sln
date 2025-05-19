@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RunSimulation", "RunSimulation.vcxproj", "{2789812F-FF09-4C70-9948-58C68E29070B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AgentControl", "AgentControl.vcxproj", "{27E9B0ED-5B10-4A99-BCF3-05FF3E009811}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpawnAgents", "SpawnAgents.vcxproj", "{E955335E-D54A-4487-A401-2B9C1D59564A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bicycles", "Bicycles.vcxproj", "{E8932DB9-95A7-4B32-A3C5-AE52BC2AC918}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocialForces", "SocialForces.vcxproj", "{FAA8562E-E16C-4837-A864-3858C7F374A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zombies", "Zombies.vcxproj", "{4F8CCFC7-0A66-4215-BB3C-03E948FF8659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2789812F-FF09-4C70-9948-58C68E29070B}.Release|x64.ActiveCfg = Release|x64
+		{2789812F-FF09-4C70-9948-58C68E29070B}.Release|x64.Build.0 = Release|x64
+		{27E9B0ED-5B10-4A99-BCF3-05FF3E009811}.Release|x64.ActiveCfg = Release|x64
+		{27E9B0ED-5B10-4A99-BCF3-05FF3E009811}.Release|x64.Build.0 = Release|x64
+		{E955335E-D54A-4487-A401-2B9C1D59564A}.Release|x64.ActiveCfg = Release|x64
+		{E955335E-D54A-4487-A401-2B9C1D59564A}.Release|x64.Build.0 = Release|x64
+		{E8932DB9-95A7-4B32-A3C5-AE52BC2AC918}.Release|x64.ActiveCfg = Release|x64
+		{E8932DB9-95A7-4B32-A3C5-AE52BC2AC918}.Release|x64.Build.0 = Release|x64
+		{FAA8562E-E16C-4837-A864-3858C7F374A4}.Release|x64.ActiveCfg = Release|x64
+		{FAA8562E-E16C-4837-A864-3858C7F374A4}.Release|x64.Build.0 = Release|x64
+		{4F8CCFC7-0A66-4215-BB3C-03E948FF8659}.Release|x64.ActiveCfg = Release|x64
+		{4F8CCFC7-0A66-4215-BB3C-03E948FF8659}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
