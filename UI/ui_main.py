@@ -16,6 +16,7 @@ class MainWindow(QWidget):
         self.setWindowTitle("行人仿真特征参数嵌入工具")
 
         self.btn_choose = QPushButton('选择.mm文件', self)
+        self.btn_choose.setFixedWidth(100)  # 新增按钮宽度设置
         self.btn_choose.clicked.connect(self.select_mm_file)
 
         self.lbl_path = QLabel("未选择文件", self)
@@ -24,7 +25,7 @@ class MainWindow(QWidget):
         layout.addWidget(self.btn_choose)
         layout.addWidget(self.lbl_path)
         self.setLayout(layout)
-        self.setFixedSize(540, 720)
+        self.setFixedSize(540, 720)  # 保持现有固定尺寸设置
 
     def select_mm_file(self):
         while True:
